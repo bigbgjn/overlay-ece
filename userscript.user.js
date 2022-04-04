@@ -17,7 +17,7 @@ if (window.top !== window.self) {
             }
             const i = document.createElement("img");
             i.src = "https://cdn.discordapp.com/attachments/912039346566201394/960536068971720704/ece_pixel.png";
-            i.style = "position: absolute;left: 1471;top: 300px;image-rendering: pixelated;width: 2000px;height: 2000px;";
+            i.style = "position: absolute;left: 0;top: 0px;image-rendering: pixelated;width: 2000px;height: 2000px;";
             i.id = "mcss-overlay"
             i.setAttribute("vis",1)
             console.log(i);
@@ -27,7 +27,7 @@ if (window.top !== window.self) {
             document.getElementsByTagName("body")[0].appendChild(
         (function () {
             const i = document.createElement("button");
-            i.style = "position: fixed;left: 1471px; background: #fff; top: 50%;width: 2000px;height: 2000px;";
+            i.style = "position: fixed;left: 10; background: #fff; top: 50%;width: 50;height: 50px;";
             i.innerHTML = "T"
             i.onclick = function() {
                 const img = document.getElementsByTagName("ece")[0].shadowRoot.children[0].getElementsByTagName("ece")[0].shadowRoot.querySelector("#mcss-overlay")
