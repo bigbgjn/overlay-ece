@@ -28,7 +28,7 @@ if (window.top !== window.self) {
         (function () {
             const i = document.createElement("button");
             i.style = "position: fixed;left: 1471px; background: #fff; top: 50%;width: 2000px;height: 2000px;";
-            i.innerHTML = "ECE"
+            i.innerHTML = "T"
             i.onclick = function() {
                 const img = document.getElementsByTagName("ece")[0].shadowRoot.children[0].getElementsByTagName("ece")[0].shadowRoot.querySelector("#mcss-overlay")
                 if (img.getAttribute("vis") == "1") {
