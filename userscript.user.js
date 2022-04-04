@@ -5,7 +5,7 @@
 // @description  stoat
 // @author       oralekin (stoatified by Jeck0_0)
 // @match        https://hot-potato.reddit.com/embed*
-// @icon         https://cdn.discordapp.com/attachments/413985144219893760/959922796966854706/Stoat.png
+// @icon         https://cdn.discordapp.com/attachments/912039346566201394/960536068971720704/ece_pixel.png
 // @grant        none
 // ==/UserScript==
 if (window.top !== window.self) {
@@ -16,7 +16,7 @@ if (window.top !== window.self) {
                 Date.now = function() { return new Date().getTime(); }
             }
             const i = document.createElement("img");
-            i.src = "https://cdn.discordapp.com/attachments/413985144219893760/960509161995636777/frenchOverlay.png";
+            i.src = "https://cdn.discordapp.com/attachments/912039346566201394/960536068971720704/ece_pixel.png";
             i.style = "position: absolute;left: 1471;top: 300px;image-rendering: pixelated;width: 2000px;height: 2000px;";
             i.id = "mcss-overlay"
             i.setAttribute("vis",1)
